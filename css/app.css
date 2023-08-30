@@ -1,3 +1,7 @@
+:root {
+  --bs-green: #198754;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -22,4 +26,9 @@ h1 {
   h1 {
     font-size: 5rem;
   }
+}
+
+/* Reescribir colores */
+.text-success {
+  color: var(--bs-green) !important;
 }
