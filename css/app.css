@@ -29,6 +29,7 @@ h1 {
 }
 
 /* Reescribir colores */
-.text-success {
+.text-success,
+.nombre-sitio {
   color: var(--bs-green) !important;
 }
