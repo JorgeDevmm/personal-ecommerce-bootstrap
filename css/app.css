@@ -76,13 +76,19 @@ h2 {
 
 /* productos */
 
-.producto img {
-}
-
 @media (min-width: 768px) {
   .producto img {
     height: 43rem;
     width: 100%;
     object-fit: cover;
   }
+}
+
+.categoria img {
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.categoria img:hover {
+  transform: scale(1.2);
 }
