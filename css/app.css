@@ -1,5 +1,6 @@
 :root {
   --bs-green: #198754;
+  --bs-warning: #ffcb7b;
 }
 
 html {
@@ -28,12 +29,38 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 3.2rem;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+h2 {
+  font-size: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+
 /* Reescribir colores */
 .text-success,
 .nombre-sitio {
   color: var(--bs-green) !important;
 }
 
+.btn-warning {
+  background-color: var(--bs-warning);
+}
+
+.bg-success {
+  background-color: var(--bs-green) !important;
+}
 .hero {
   background-image: url(../img/principal2.jpg);
   height: 25rem;
@@ -45,5 +72,18 @@ h1 {
   .hero {
     height: 60rem;
     background-position: top center;
+  }
+}
+
+/* productos */
+
+.producto img {
+}
+
+@media (min-width: 768px) {
+  .producto img {
+    height: 43rem;
+    width: 100%;
+    object-fit: cover;
   }
 }
