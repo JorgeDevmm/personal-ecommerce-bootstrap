@@ -33,3 +33,17 @@ h1 {
 .nombre-sitio {
   color: var(--bs-green) !important;
 }
+
+.hero {
+  background-image: url(../img/principal2.jpg);
+  height: 25rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 60rem;
+    background-position: top center;
+  }
+}
