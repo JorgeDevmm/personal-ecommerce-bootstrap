@@ -1,6 +1,8 @@
 :root {
   --bs-green: #198754;
   --bs-warning: #ffcb7b;
+  --font-black: #1a1a1a;
+  --font-secondary: #313131;
 }
 
 html {
@@ -21,6 +23,10 @@ h3 {
 
 h1 {
   font-size: 3.8rem;
+}
+
+.header {
+  background-color: var(--font-black);
 }
 
 @media (min-width: 768px) {
@@ -51,6 +57,7 @@ h2 {
 /* Reescribir colores */
 .text-success,
 .nombre-sitio {
+
   color: var(--bs-green) !important;
 }
 
@@ -91,4 +98,8 @@ h2 {
 
 .categoria img:hover {
   transform: scale(1.2);
+}
+
+.footer {
+  background-color: var(--font-secondary);
 }
