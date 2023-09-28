@@ -57,7 +57,6 @@ h2 {
 /* Reescribir colores */
 .text-success,
 .nombre-sitio {
-
   color: var(--bs-green) !important;
 }
 
@@ -98,6 +97,22 @@ h2 {
 
 .categoria img:hover {
   transform: scale(1.2);
+}
+
+.galeria li {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .galeria li {
+    margin: 0 0.2rem 1rem 0.2rem;
+    max-width: 40rem;
+    padding: 0;
+  }
+}
+
+.galeria li img {
+  padding: 0;
 }
 
 .footer {
